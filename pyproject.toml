@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "dash-apps-server-env"
+version = "0.2.0"
+description = "Parent env for all dash apps and lauch configs"
+authors = ["dariennouri <dan9232@nyu.edu>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.12.3"
+pandas = "^2.2.2"
+blinker = "^1.8.2"
+boto3 = "^1.34.138"
+botocore = "^1.34.138"
+certifi = "^2024.6.2"
+charset-normalizer = "^3.3.2"
+click = "^8.1.7"
+dash-bootstrap-components = "^1.6.0"
+dash-mantine-components = "^0.14.3"
+dash-ag-grid = "^31.2.0"
+envyaml = "^1.10.211231"
+gunicorn = "^22.0.0"
+idna = "^3.7"
+importlib-metadata = "^8.0.0"
+itsdangerous = "^2.2.0"
+jinja2 = "^3.1.4"
+jmespath = "^1.0.1"
+markupsafe = "^2.1.5"
+nest-asyncio = "^1.6.0"
+numpy = "^2.0.0"
+packaging = "^24.1"
+plotly = "^5.22.0"
+python-dateutil = "^2.9.0.post0"
+pytz = "^2024.1"
+pyyaml = "^6.0.1"
+requests = "^2.32.3"
+retrying = "^1.3.4"
+s3transfer = "^0.10.2"
+scipy = "^1.14.0"
+setuptools = "^70.2.0"
+six = "^1.16.0"
+tenacity = "^8.4.2"
+typing-extensions = "^4.12.2"
+tzdata = "^2024.1"
+urllib3 = "^2.2.2"
+werkzeug = "^3.0.3"
+zipp = "^3.19.2"
+python-dotenv = "^1.0.1"
+flask = "^3.0.3"
+streamlit = "^1.36.0"
+dash = "^2.17.1"
+dash-ec2-wrapper = {git = "https://github.com/DarienNouri/dash-ec2-wrapper.git"}
+scikit-learn = "^1.5.1"
+statsmodels = "^0.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

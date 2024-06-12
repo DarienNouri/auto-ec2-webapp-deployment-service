@@ -1,0 +1,10 @@
+app_repo_url: 'https://github.com/DarienNouri/ec2-dash-apps-dev.git'
+python_interpreter: '/home/ubuntu/.cache/pypoetry/virtualenvs/dash-apps-server-env-txI8oAT1-py3.12/bin/python'
+python_package_manager: 'poetry' # or pip
+webhook_port: 5000
+listen_host: '0.0.0.0'
+custom_domains:
+  - '54.237.69.45'
+  - 'apps.darien.ai'
+  - 'apps.dnouri.com'
+  - 'apps.dariennouri.com'

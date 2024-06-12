@@ -1,0 +1,16 @@
+{
+    "branches": [
+        {
+            "name": "app-test-dash",
+            "port": 8079
+        },
+        {
+            "name": "app-test-streamlit",
+            "port": 8085
+        },
+        {
+            "name": "docker-streamlit",
+            "port": 8088
+        }
+    ]
+}
